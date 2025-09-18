@@ -1,11 +1,11 @@
-# 🏥 Emergency Room Visit Analysis
+#  Emergency Room Visit Analysis
 ## *Transforming OpenEMR Data into Clinical Insights*
 
 *A data-driven exploration of ER patterns through OpenEMR exports*
 
 ---
 
-## 🌟 Project Overview
+##  Project Overview
 
 This project transforms raw OpenEMR exports into meaningful insights about emergency room visits, revealing patterns in patient demographics, vital signs, procedures, and follow-up care. Think of it as translating the complex story of emergency medicine into clear, actionable data narratives.
 
@@ -13,7 +13,7 @@ This project transforms raw OpenEMR exports into meaningful insights about emerg
 
 ---
 
-## 🎯 The Questions We Explored
+##  The Questions We Explored
 
 Every data analysis begins with curiosity. Here are the clinical questions that guided our exploration:
 
@@ -25,7 +25,7 @@ Every data analysis begins with curiosity. Here are the clinical questions that 
 
 ---
 
-## 🔍 Key Discoveries
+##  Key Discoveries
 
 ### Visit Patterns
 - **Most common reasons**: General examinations, well-child visits, symptom evaluations, and prenatal care
@@ -51,7 +51,7 @@ Every data analysis begins with curiosity. Here are the clinical questions that 
 
 ---
 
-## 🛠️ Technical Architecture
+##  Technical Architecture
 
 ### Data Pipeline
 OpenEMR Exports → Python Cleaning → MySQL Database → Jupyter Analysis
@@ -76,7 +76,7 @@ Our relational model captures the complexity of healthcare data:
 
 ---
 
-## 📊 Methodology
+##  Methodology
 
 ### Data Cleaning Philosophy
 - Preserved core clinical fields (patient ID, demographics, vital signs)
@@ -98,14 +98,12 @@ Our relational model captures the complexity of healthcare data:
 ---
 
 ## Repository Structure
-er-visit-analysis/
-├── er-visit-analysis.ipynb # Complete workflow notebook
-├── er-visit-analysis_Presentation.pdf # Visual summary of findings
-├── er-visit-analysis_ER_diagram.png # Database schema visualization
-├── README.md # This file
----
+- `er-visit-analysis.ipynb` - Complete workflow notebook
+- `er-visit-analysis_Presentation.pdf` - Visual summary of findings
+- `er-visit-analysis_ER_diagram` - Database schema visualization
+- `README.md` - This file
 
-## �� Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Python 3.7+
@@ -134,7 +132,7 @@ pip install -r requirements.txt
 
 ---
 
-## �� What This Project Demonstrates
+##  What This Project Demonstrates
 
 ### Technical Skills
 - **ETL Pipeline Development**: End-to-end data transformation from source to analysis
@@ -150,7 +148,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🔒 Data Privacy & Security
+## Data Privacy & Security
 
 **Important**: If your OpenEMR exports contain PHI (Protected Health Information), ensure they are:
 - Stored securely outside the repository
@@ -165,7 +163,7 @@ pip install -r requirements.txt
 
 ---
 
-## �� Contact & Collaboration
+## Contact & Collaboration
 
 **Project Lead**: Sri Ramya Panja
 - **Email**: sriramyapanja123@gmail.com
@@ -173,7 +171,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📜 License
+## License
 
 This project is intended for educational and research purposes. Please ensure compliance with healthcare data regulations in your jurisdiction.
 
