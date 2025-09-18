@@ -97,15 +97,12 @@ Our relational model captures the complexity of healthcare data:
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 er-visit-analysis/
 ├── er-visit-analysis.ipynb # Complete workflow notebook
 ├── er-visit-analysis_Presentation.pdf # Visual summary of findings
-├── er-visit-analysis_ER_diagram # Database schema visualization
+├── er-visit-analysis_ER_diagram.png # Database schema visualization
 ├── README.md # This file
-└── data/ # Raw data (if not restricted)
-└── openemr_exports/
-
 ---
 
 ## �� Getting Started
